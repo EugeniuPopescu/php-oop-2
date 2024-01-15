@@ -2,16 +2,11 @@
 
 class Category
 {
-    public $cats;
-    public $dogs;
-    public $birdsAndRodents;
-    public $fish;
+    public $typeAnimal;
 
-    public function __construct($gatti, $cani, $uccelliERoditori, $pesca)
+
+    public function __construct($animale)
     {
-        $this->cats = $gatti;
-        $this->dogs = $cani;
-        $this->birdsAndRodents = $uccelliERoditori;
-        $this->fish = $pesca;
+        $this->typeAnimal = $animale;
     }
 }
