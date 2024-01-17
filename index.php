@@ -48,7 +48,7 @@ require __DIR__ . "/data.php";
                             </span>
                             <!-- nome della classe  -->
                             <p>
-                                <?= get_class($product) ?>
+                                ( <?= get_class($product) ?> )
                             </p>
                         </div>
                     </div>
